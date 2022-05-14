@@ -1,0 +1,23 @@
+<suite name="TestSuite1" parallel="classes" >
+<!--
+    <parameter name="suiteParam" value ="John"/>
+-->
+    <parameter name="a" value="10"/>
+    <parameter name="b" value="7"/>
+
+    <test name="Test1">
+        <classes>
+<!--
+            <class name="PriorityTests" />
+-->
+<!--
+            <class name="DataProvidersTest" />
+-->
+            <class name="Calculation0UsingDataProvider"/>
+            <class name="Calculation1UsingDataProvider"/>
+            <class name="Calculation2UsingDataProvider"/>
+            <class name="Calculation3UsingDataProvider"/>
+
+        </classes>
+    </test>
+</suite>
